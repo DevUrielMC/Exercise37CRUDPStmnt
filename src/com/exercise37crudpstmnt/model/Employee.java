@@ -13,6 +13,20 @@ public class Employee {
 	{
 		
 	}
+	
+	
+	public Employee(int idEmployee, String nameEmployee, int ageEmployee, String addressEmployee, double salaryEmployee,
+			String departmentEmployee) {
+		super();
+		this.idEmployee = idEmployee;
+		this.nameEmployee = nameEmployee;
+		this.ageEmployee = ageEmployee;
+		this.addressEmployee = addressEmployee;
+		this.salaryEmployee = salaryEmployee;
+		this.departmentEmployee = departmentEmployee;
+	}
+
+
 	/**
 	 * Parameterized constructor
 	 * @param idEmployee 
@@ -22,65 +36,76 @@ public class Employee {
 	 * @param salaryEmployee
 	 * @param departmentEmployee
 	 */
-	public Employee(int idEmployee, String nameEmployee, int ageEmployee,String addressEmployee, 
-			double salaryEmployee,String departmentEmployee) 
-	{
-			this.idEmployee= idEmployee;
-			this.nameEmployee= nameEmployee;
-			this.ageEmployee= ageEmployee;
-			this.addressEmployee= addressEmployee;
-			this.salaryEmployee= salaryEmployee;
-			this.departmentEmployee= departmentEmployee;
-		
-	}
 	
 	public int getIdEmployee() {
-		return this.idEmployee;			
+		return idEmployee;
 	}
-	
-	public void setIdEmployee( int idEmployee) {
-		this.idEmployee= idEmployee;
+
+
+
+	public void setIdEmployee(int idEmployee) {
+		this.idEmployee = idEmployee;
 	}
-	
+
+
+
 	public String getNameEmployee() {
-		return this.nameEmployee;			
+		return nameEmployee;
 	}
-	
-	public void setNameEmployee( String nameEmployee) {
-		this.nameEmployee= nameEmployee;
+
+
+
+	public void setNameEmployee(String nameEmployee) {
+		this.nameEmployee = nameEmployee;
 	}
-	
+
+
+
 	public int getAgeEmployee() {
-		return this.ageEmployee;			
+		return ageEmployee;
 	}
-	
-	public void setAgeEmployee( int ageEmployee) {
-		this.ageEmployee= ageEmployee;
+
+
+
+	public void setAgeEmployee(int ageEmployee) {
+		this.ageEmployee = ageEmployee;
 	}
-	
+
+
+
 	public String getAddressEmployee() {
-		return this.addressEmployee;			
+		return addressEmployee;
 	}
-	
-	public void setAddressEmployee( String addressEmployee) {
-		this.addressEmployee= addressEmployee;
+
+
+
+	public void setAddressEmployee(String addressEmployee) {
+		this.addressEmployee = addressEmployee;
 	}
-	
+
+
+
 	public double getSalaryEmployee() {
-		return this.salaryEmployee;			
+		return salaryEmployee;
 	}
-	
-	public void setSalaryEmployee( double salaryEmployee) {
-		this.salaryEmployee= salaryEmployee;
+
+
+
+	public void setSalaryEmployee(double salaryEmployee) {
+		this.salaryEmployee = salaryEmployee;
 	}
+
+
+
 	public String getDepartmentEmployee() {
-		return this.departmentEmployee;			
+		return departmentEmployee;
 	}
-	
-	public void setDepartmentEmployee( String departmentEmployee) {
-		this.departmentEmployee= departmentEmployee;
+
+
+
+	public void setDepartmentEmployee(String departmentEmployee) {
+		this.departmentEmployee = departmentEmployee;
 	}
-	
 	
 	/**
 	 * toString method to show values from the object

@@ -13,8 +13,8 @@
 		<h2>Create whit prepared statements</h2>
 		<form class="form-group" action= "CreateServlet" method="post">
 		<p>
-			<label for="txtEmployee">Id Employee</label>
-			<input class="form-control" type="text" id="txtEmployee" name="txtEmployee" disabled>	<!-- El id es para el frontend y el name para el backend -->
+			<label for="txtIdEmployee">Id Employee</label>
+			<input class="form-control" type="text" id="txtIdEmployee" name="txtIdEmployee" disabled>	<!-- El id es para el frontend y el name para el backend -->
 		</p>
 		<p>
 			<label for="txtNameEmployee">Name Employee</label>
