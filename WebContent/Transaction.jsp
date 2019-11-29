@@ -1,28 +1,28 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>CRUD 2</title>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-		<h2>CRUD whit prepared statements</h2>
-			<ul class="list-group">
-				<li class="list-group-item list-group-item-action"><a href="Create.jsp">Create</a></li>
-				<li class="list-group-item list-group-item-action"><a href="Read.jsp">Read</a></li>
-				<li class="list-group-item list-group-item-action"><a href="Update.jsp">Update</a></li>
-				<li class="list-group-item list-group-item-action"><a href="Delete.jsp">Delete</a></li>
-				<li class="list-group-item list-group-item-action"><a href="Transaction.jsp">Transaction</a></li>
-			
-			</ul>
-
-
+	<h2>Transactions in my java</h2>
+	<form action="TransactionsServlet" method="post">
+		<input class="btn btn-primary" type="submit" value="Excecute the transaction">
 	
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	
+	
+	</form>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
         
@@ -35,5 +35,6 @@
         crossorigin="anonymous"></script>
         
         <script src="js/script.js"></script>
+
 </body>
 </html>
